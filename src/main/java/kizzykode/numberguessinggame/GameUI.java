@@ -25,7 +25,7 @@ public class GameUI {
     private int timeRemaining;
 
     public void initialize() {
-        frame = new JFrame("Number Guessing Game");
+        frame = new JFrame("Java Number Guessing Game");
         frame.setLayout(new GridLayout(6, 1));
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().setBackground(Color.BLACK);
